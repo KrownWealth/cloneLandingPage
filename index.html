@@ -6,1059 +6,492 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clone Web3Ladies</title>
-    <!--bosstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <!--Bosstrap CDN -->
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!--External Css link-->
+    <link rel="icon" href="./assets/images/favicon.ico">
+   <link rel="stylesheet" href="./isDesktop.css">
+   <link rel="stylesheet" href="./isTablet.css">
+   <link rel="stylesheet" href="./isMobile.css">
 </head>
 
 <body>
 
-    
-
+    <!---Header Section-->
     <header>
-        <div>
-            <div id="header" class="nav-container nav-lg"><a class="logo" href="/"><span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27120%27%20height=%2750%27/%3e"></span><img
-                            alt="web3ladies-logo" src="./assets/images/web3ladies-logo.svg" decoding="async"
-                            data-nimg="intrinsic" class="logo"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                            srcset="./assets/images/web3ladies-logo.svg 1x, ./assets/images/web3ladies-logo.svg 2x"></span></a>
-                <nav class="nav">
-                    <ul class="header-list">
-                        <li class="active"><span class="header-list-item"><a href="#">Home</a></span></li>
-                        <li class=""><span class="header-list-item"><a href="#">Sponsorship</a></span></li>
-                        <li class=""><span class="header-list-item"><a href="#">Blog</a></span></li>
-                    </ul>
-                </nav>
-            </div>
-            <div id="header" class="nav-container nav-sm"><a class="logo" href="/"><span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2770%27%20height=%2740%27/%3e"></span><img
-                            alt="web3ladies-logo" src="./assets/images/web3ladies-logo.svg" decoding="async"
-                            data-nimg="intrinsic" class="logo"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                            srcset="./assets/images/web3ladies-logo.svg 1x, /assets/images/web3ladies-logo.svg 2x"></span></a><svg
-                    width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M25.625 8.75H4.375C4.20924 8.75 4.05027 8.68415 3.93306 8.56694C3.81585 8.44973 3.75 8.29076 3.75 8.125V6.875C3.75 6.70924 3.81585 6.55027 3.93306 6.43306C4.05027 6.31585 4.20924 6.25 4.375 6.25H25.625C25.7908 6.25 25.9497 6.31585 26.0669 6.43306C26.1842 6.55027 26.25 6.70924 26.25 6.875V8.125C26.25 8.29076 26.1842 8.44973 26.0669 8.56694C25.9497 8.68415 25.7908 8.75 25.625 8.75ZM26.25 15.625V14.375C26.25 14.2092 26.1842 14.0503 26.0669 13.9331C25.9497 13.8158 25.7908 13.75 25.625 13.75H4.375C4.20924 13.75 4.05027 13.8158 3.93306 13.9331C3.81585 14.0503 3.75 14.2092 3.75 14.375V15.625C3.75 15.7908 3.81585 15.9497 3.93306 16.0669C4.05027 16.1842 4.20924 16.25 4.375 16.25H25.625C25.7908 16.25 25.9497 16.1842 26.0669 16.0669C26.1842 15.9497 26.25 15.7908 26.25 15.625ZM26.25 23.125V21.875C26.25 21.7092 26.1842 21.5503 26.0669 21.4331C25.9497 21.3158 25.7908 21.25 25.625 21.25H4.375C4.20924 21.25 4.05027 21.3158 3.93306 21.4331C3.81585 21.5503 3.75 21.7092 3.75 21.875V23.125C3.75 23.2908 3.81585 23.4497 3.93306 23.5669C4.05027 23.6842 4.20924 23.75 4.375 23.75H25.625C25.7908 23.75 25.9497 23.6842 26.0669 23.5669C26.1842 23.4497 26.25 23.2908 26.25 23.125Z"
-                        fill="#0F0F0F"></path>
-                </svg></div>
-        </div>
+        <nav class="container nav-container">
+            <a href="#">
+                <img src="./assets/images/web3ladies-logo.svg" alt="Web3Ladies Logo" class="nav-logo">
+            </a>
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sponsorship</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
 
-        
+            <!---Hide toggle button on desktop---->
+            <button class="toggle-button">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </button>
+        </nav>
     </header>
 
-  
-    <main class="header-bg">
 
-        <div class="container cta">
-            <div class="content">
-                <div class="hero_content">
-                    <h1 class="section-title">Disrupting the <span>Web3 Ecosystem</span></h1>
-                    <p>We are a leading web3 community focused on raising the next generation of female disruptors
-                        in the Web3 ecosystem by equipping them with sought-after relevant Blockchain skills.</p>
-                    <div class="button-container"><button class="primary">Learn more</button><button
-                            class="outline">Sponsor Us</button></div>
+    <!--Hero Top--->
+
+
+
+    <!--this is hero top-->
+    <main>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-content-text">
+                    <div class="hero-text">
+                        <h1 class="hero-title">Disrupting the <span>Web3 Ecosystem</span></h1>
+                        <p>We are a leading web3 community focused on raising the next generation of female disruptors
+                            in the Web3 ecosystem by equipping them with sought-after relevant Blockchain skills.</p>
+                    </div>
+                    <div class="button-ontainer">
+                        <button class="btn primary-btn">Learn More</button>
+                        <button class="btn secondary-btn">Sponsor Us</button>
+                    </div>
                 </div>
-                <div class="hero_image">
-                    <div><span
-                            style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                                style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                    style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                    alt="" aria-hidden="true"
-                                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27493%27%20height=%27472%27/%3e"></span><img
-                                alt="hero-image"
-                                src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fhero-image.png&w=640&q=75"
-                                decoding="async" data-nimg="intrinsic" class="hero-image"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                                srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fhero-image.png&w=640&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fhero-image.png&w=640&q=75 2x"><noscript><img
-                                    alt="hero-image"
-                                    srcSet="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fhero-image.png&w=640&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fhero-image.png&w=640&q=75 2x"
-                                    src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fhero-image.png&w=640&q=75"
-                                    decoding="async" data-nimg="intrinsic"
-                                    style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                                    class="hero-image" loading="lazy" /></noscript></span><span
-                            style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                                style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                    style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                    alt="" aria-hidden="true"
-                                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27113%27%20height=%27121%27/%3e"></span><img
-                                alt="bitcoin-logo"
-                                src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fbitcoin.png&w=128&q=75"
-                                decoding="async" data-nimg="intrinsic" class="hero-illustration"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                                srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fbitcoin.png&w=128&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fbitcoin.png&w=128&q=75 2x"><noscript><img
-                                    alt="bitcoin-logo"
-                                    srcSet="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fbitcoin.png&w=128&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fbitcoin.png&w=128&q=75 2x"
-                                    src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fbitcoin.png&w=128&q=75"
-                                    decoding="async" data-nimg="intrinsic"
-                                    style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                                    class="hero-illustration" loading="lazy" /></noscript></span><span
-                            style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                                style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                    style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                    alt="" aria-hidden="true"
-                                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2766%27%20height=%2795%27/%3e"></span><img
-                                alt="ethereum-logo"
-                                src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fethereum.png&w=96&q=75"
-                                decoding="async" data-nimg="intrinsic" class="hero-illustration"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                                srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fethereum.png&w=96&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fethereum.png&w=96&q=75 2x"><noscript><img
-                                    alt="ethereum-logo"
-                                    srcSet="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fethereum.png&w=96&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fethereum.png&w=96&q=75 2x"
-                                    src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fethereum.png&w=96&q=75"
-                                    decoding="async" data-nimg="intrinsic"
-                                    style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                                    class="hero-illustration" loading="lazy" /></noscript></span><span
-                            style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                                style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                    style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                    alt="" aria-hidden="true"
-                                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27195%27%20height=%2775%27/%3e"></span><img
-                                alt="web3ladies-vector"
-                                src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3ladies-vector.png&w=256&q=75"
-                                decoding="async" data-nimg="intrinsic" class="hero-illustration"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                                srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3ladies-vector.png&w=256&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3ladies-vector.png&w=256&q=75 2x"><noscript><img
-                                    alt="web3ladies-vector"
-                                    srcSet="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3ladies-vector.png&w=256&q=75, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3ladies-vector.png&w=256&q=75 2x"
-                                    src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3ladies-vector.png&w=256&q=75"
-                                    decoding="async" data-nimg="intrinsic"
-                                    style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                                    class="hero-illustration" loading="lazy" /></noscript></span></div>
+
+                <div class="hero-image">
+                    <img src="./assets/images/hero-image.webp" alt="" class="header-img">
+                    <img src="./assets/images/ethereum.webp" alt="" class="animated-ethereum">
+                    <img src="./assets/images/bitcoinB.webp" alt="" class="animated-bitcoin">
+                    <img src="./assets/images/curve-animation-image.webp" alt="" class="animated-inverted">
                 </div>
             </div>
         </div>
-
-
     </main>
 
+
     <!--Our Supporter Section-->
-    <section class="support" style="padding-top:0">
-        <div class="container" style="padding-top:0">
-            <h1 class="support--heading">Our Supporters</h1>
-            <div class="groups-container">
-                <div class="group-item pointer-cursor"><span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27165%27%20height=%2760%27/%3e"></span><img
-                            alt="Polygon" src="./assets/images/polygon.svg" decoding="async" data-nimg="intrinsic"
-                            class="support-image"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                            srcset="./assets/images/polygon.svg 1x, ./assets/images/polygon.svg 2x"><noscript><img
-                                alt="Polygon" srcSet="./assets/images/polygon.svg 1x, ./assets/images/polygon.svg 2x"
-                                src="./assets/images/polygon.svg" decoding="async" data-nimg="intrinsic"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                                class="support-image" loading="lazy" /></noscript></span></div>
-                <div class="group-item pointer-cursor"><span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27165%27%20height=%2760%27/%3e"></span><img
-                            alt="W3D" src="./assets/images/w3d.svg" decoding="async" data-nimg="intrinsic"
-                            class="support-image"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                            srcset="./assets/images/w3d.svg 1x, ./assets/images/w3d.svg 2x"><noscript><img alt="W3D"
-                                srcSet="/assets/images/w3d.svg 1x, ./assets/images/w3d.svg 2x"
-                                src="./assets/images/w3d.svg" decoding="async" data-nimg="intrinsic"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                                class="support-image" loading="lazy" /></noscript></span></div>
-                <div class="group-item pointer-cursor"><span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27165%27%20height=%2760%27/%3e"></span><img
-                            alt="FTX" src="./assets/images/ftx.svg" decoding="async" data-nimg="intrinsic"
-                            class="support-image"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                            srcset="./assets/images/ftx.svg 1x, ./assets/images/ftx.svg 2x"><noscript><img alt="FTX"
-                                srcSet="/assets/images/ftx.svg 1x, ./assets/images/ftx.svg 2x"
-                                src="./assets/images/ftx.svg" decoding="async" data-nimg="intrinsic"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                                class="support-image" loading="lazy" /></noscript></span></div>
-                <div class="group-item pointer-cursor"><span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27165%27%20height=%2760%27/%3e"></span><img
-                            alt="StackShift" src="./assets/images/stackshift.svg" decoding="async" data-nimg="intrinsic"
-                            class="support-image"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                            srcset="./assets/images/stackshift.svg 1x, ./assets/images/stackshift.svg 2x"><noscript><img
-                                alt="StackShift"
-                                srcSet="./assets/images/stackshift.svg 1x, ./assets/images/stackshift.svg 2x"
-                                src="./assets/images/stackshift.svg" decoding="async" data-nimg="intrinsic"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                                class="support-image" loading="lazy" /></noscript></span></div>
-                <div class="group-item pointer-cursor"><span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27165%27%20height=%2760%27/%3e"></span><img
-                            alt="Crevatal" src="./assets/images/crevatal.svg" decoding="async" data-nimg="intrinsic"
-                            class="support-image"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                            srcset="./assets/images/crevatal.svg 1x, ./assets/images/crevatal.svg 2x"><noscript><img
-                                alt="Crevatal" srcSet="/assets/images/crevatal.svg 1x, ./assets/images/crevatal.svg 2x"
-                                src="./assets/images/crevatal.svg" decoding="async" data-nimg="intrinsic"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                                class="support-image" loading="lazy" /></noscript></span></div>
-                <div class="group-item pointer-cursor"><span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27165%27%20height=%2760%27/%3e"></span><img
-                            alt="Harmony" src="./assets/images/harmony.svg" decoding="async" data-nimg="intrinsic"
-                            class="support-image"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                            srcset="./assets/images/harmony.svg 1x, ./assets/images/harmony.svg 2x"><noscript><img
-                                alt="Harmony" srcSet="/assets/images/harmony.svg 1x, ./assets/images/harmony.svg 2x"
-                                src="./assets/images/harmony.svg" decoding="async" data-nimg="intrinsic"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                                class="support-image" loading="lazy" /></noscript></span></div>
-                <div class="group-item pointer-cursor"><span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27165%27%20height=%2760%27/%3e"></span><img
-                            alt="Filecoin" src="./assets/images/filecoin.svg" decoding="async" data-nimg="intrinsic"
-                            class="support-image"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                            srcset="./assets/images/filecoin.svg 1x, /assets/images/filecoin.svg 2x"><noscript><img
-                                alt="Filecoin" srcSet="./assets/images/filecoin.svg 1x, ./assets/images/filecoin.svg 2x"
-                                src="./assets/images/filecoin.svg" decoding="async" data-nimg="intrinsic"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                                class="support-image" loading="lazy" /></noscript></span></div>
-                <div class="group-item pointer-cursor"><span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27165%27%20height=%2760%27/%3e"></span><img
-                            alt="ChainWhiz" src="./assets/images/chainwhiz.svg" decoding="async" data-nimg="intrinsic"
-                            class="support-image"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                            srcset="./assets/images/chainwhiz.svg 1x, ./assets/images/chainwhiz.svg 2x"><noscript><img
-                                alt="ChainWhiz"
-                                srcSet="./assets/images/chainwhiz.svg 1x, ./assets/images/chainwhiz.svg 2x"
-                                src="./assets/images/chainwhiz.svg" decoding="async" data-nimg="intrinsic"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                                class="support-image" loading="lazy" /></noscript></span></div>
+
+    <section class="support-section">
+        <div class="container">
+            <h2 class="support-section-heading">Our Supporters</h2>
+            <div class="support-groups ">
+                <img src="./assets/images/polygon.svg" alt="Polygon">
+                <img src="./assets/images/w3d.svg" alt="w3d">
+                <img src="./assets/images/ftx.svg" alt="ftx">
+                <img src="./assets/images/stackshift.svg" alt="stackshift">
+                <img src="./assets/images/crevatal.svg" alt="crevatal">
+                <img src="./assets/images/harmony.svg" alt="">
+                <img src="./assets/images/filecoin.svg" alt="filecoin">
+                <img src="./assets/images/chainwhiz.svg" alt="">
             </div>
         </div>
     </section>
 
     <!--Who we are-->
-    <section class="introduction" id="who-we-are">
-        <div class="container" style="padding-top:0">
-            <div class="introduction--heading">
-                <h1 class="section-title">Who we are</h1><span
-                    style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                        style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                            style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                            alt="" aria-hidden="true"
-                            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27100%27%20height=%27150%27/%3e"></span><img
-                        alt="web3ladies-vector"
-                        src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3vector-img.png&w=128&q=75"
-                        decoding="async" data-nimg="intrinsic" class="hero-img"
-                        style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                        srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3vector-img.png&w=128&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3vector-img.png&w=128&q=75 2x"><noscript><img
-                            alt="web3ladies-vector"
-                            srcSet="/_next/image?url=%2Fassets%2Fimages%2Fweb3vector-img.png&amp;w=128&amp;q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3vector-img.png&w=128&q=75 2x"
-                            src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3vector-img.png&w=128&q=75"
-                            decoding="async" data-nimg="intrinsic"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"
-                            class="hero-img" loading="lazy" /></noscript></span>
+    <section class="intro-section">
+        <div class="container intro-container">
+            <div class="intro-heading">
+                <h2 class="intro-heading-title">Who We Are</h2>
+                <img src="./assets/images/animation-image.webp" alt="" class="inverted-two">
             </div>
-            <div class="introduction--container">
-                <p class="introduction--container-text">Web3Ladies is the #1 sought-after Web3 community in Africa
-                    empowering a generation of female industry leaders who will build, nurture, and develop a
-                    sustainable Web3 space.
-                    <br><br>
+
+            <div class="introduction-container">
+                <p>Web3Ladies is the #1 sought-after Web3 community in Africa empowering a generation of female industry
+                    leaders who will build, nurture, and develop a sustainable Web3 space. <br><br>
 
                     Our aim is to foster a community of excellent, passionate, and groundbreaking ladies in the African
                     Web3 space, who can work together, not only to challenge the status quo but also to create impactful
                     open-sourced solutions in the Web3 space.</p>
-                <div class="introduction--container-cta"><button class="primary">Learn More</button><span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2767%27%20height=%2763%27/%3e"></span><img
-                            alt="arrow-vector"
-                            src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Farrow-img.png&w=96&q=75"
-                            decoding="async" data-nimg="intrinsic" class="arrow-img"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                            srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Farrow-img.png&w=96&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Farrow-img.png&w=96&q=75 2x"><noscript><img
-                                alt="arrow-vector"
-                                srcSet="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Farrow-img.png&w=96&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Farrow-img.png&w=96&q=75 2x"
-                                src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Farrow-img.png&w=96&q=75"
-                                decoding="async" data-nimg="intrinsic"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                                class="arrow-img" loading="lazy" /></noscript></span></div>
+            </div>
+
+            <div class="btn primary-btn intro-btn">
+                <button class="btn primary-btn">Learn More</button>
+                <img src="./assets/images/arrow.webp" alt="" class="arrow">
             </div>
         </div>
     </section>
 
 
-    <section class="who-we-are" id="join-our-community">
-        <div class="container wrapper">
-            <div class="who-we-are--container">
-                <div class="who-we-are--content">
-                    <h3 class="section-title">Join Our Community</h3>
-                    <p>Be a part of a growing community of forward-thinking ladies shaping the future of the Web3
-                        ecosystem.</p>
-                    <div class="who-we-are--content-cta"><button class="outline has-icon" width="243px"><span
-                                class="icon-left"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M3.36156 10.1105C3.36156 11.0355 2.60586 11.7913 1.68078 11.7913C0.755701 11.7913 0 11.0355 0 10.1105C0 9.18539 0.755701 8.42969 1.68078 8.42969H3.36156V10.1105Z"
-                                        fill="#E01E5A"></path>
-                                    <path
-                                        d="M4.20801 10.1105C4.20801 9.18539 4.96371 8.42969 5.88879 8.42969C6.81387 8.42969 7.56957 9.18539 7.56957 10.1105V14.3189C7.56957 15.244 6.81387 15.9997 5.88879 15.9997C4.96371 15.9997 4.20801 15.244 4.20801 14.3189V10.1105Z"
-                                        fill="#E01E5A"></path>
-                                    <path
-                                        d="M5.88879 3.36156C4.96371 3.36156 4.20801 2.60586 4.20801 1.68078C4.20801 0.755701 4.96371 0 5.88879 0C6.81387 0 7.56957 0.755701 7.56957 1.68078V3.36156H5.88879Z"
-                                        fill="#36C5F0"></path>
-                                    <path
-                                        d="M5.88925 4.20801C6.81433 4.20801 7.57003 4.96371 7.57003 5.88879C7.57003 6.81387 6.81433 7.56957 5.88925 7.56957H1.68078C0.755701 7.56957 0 6.81387 0 5.88879C0 4.96371 0.755701 4.20801 1.68078 4.20801H5.88925Z"
-                                        fill="#36C5F0"></path>
-                                    <path
-                                        d="M12.6387 5.88977C12.6387 4.96468 13.3944 4.20898 14.3195 4.20898C15.2445 4.20898 16.0002 4.96468 16.0002 5.88977C16.0002 6.81485 15.2445 7.57055 14.3195 7.57055H12.6387V5.88977Z"
-                                        fill="#2EB67D"></path>
-                                    <path
-                                        d="M11.7922 5.88925C11.7922 6.81433 11.0365 7.57003 10.1114 7.57003C9.18636 7.57003 8.43066 6.81433 8.43066 5.88925V1.68078C8.43066 0.755701 9.18636 0 10.1114 0C11.0365 0 11.7922 0.755701 11.7922 1.68078V5.88925Z"
-                                        fill="#2EB67D"></path>
-                                    <path
-                                        d="M10.1114 12.6377C11.0365 12.6377 11.7922 13.3934 11.7922 14.3185C11.7922 15.2436 11.0365 15.9993 10.1114 15.9993C9.18636 15.9993 8.43066 15.2436 8.43066 14.3185V12.6377H10.1114Z"
-                                        fill="#ECB22E"></path>
-                                    <path
-                                        d="M10.1114 11.7913C9.18636 11.7913 8.43066 11.0355 8.43066 10.1105C8.43066 9.18539 9.18636 8.42969 10.1114 8.42969H14.3199C15.245 8.42969 16.0007 9.18539 16.0007 10.1105C16.0007 11.0355 15.245 11.7913 14.3199 11.7913H10.1114Z"
-                                        fill="#ECB22E"></path>
-                                </svg></span>Join our community</button></div>
+
+    <section class="join-section">
+        <div class="container">
+            <div class="join-section-content">
+                <div class="join-text">
+                    <div class="texts">
+                        <h3>Join Our Community</h3>
+                        <h6>Be a part of a growing community of forward-thinking ladies shaping the future of the Web3
+                            ecosystem.</h6>
+                    </div>
+                    <button class="join-btn">
+                        <img src="./assets/images/community-img.webp" alt="Slack" class="slack">
+                        <p>Join our community</p>
+                    </button>
                 </div>
-                <div class="who-we-are--img"><span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27532%27%20height=%27500%27/%3e"></span><img
-                            alt="community-image"
-                            src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcommunityimg.png&w=640&q=75"
-                            decoding="async" data-nimg="intrinsic"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                            srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcommunityimg.png&w=640&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcommunityimg.png&w=640&q=75 2x"><noscript><img
-                                alt="community-image"
-                                srcSet="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcommunityimg.png&w=640&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcommunityimg.png&w=640&q=75 2x"
-                                src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcommunityimg.png&w=640&q=75"
-                                decoding="async" data-nimg="intrinsic"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                                loading="lazy" /></noscript></span></div>
+
+                <div class="join-img">
+                    <img src="./assets/images/join-community.webp" alt="">
+                </div>
             </div>
         </div>
     </section>
 
     <!--Analytics-->
 
-    <section class="analytics">
-        <div class="container">
-            <h1 class="analytics--heading section-title">Our Numbers</h1>
-            <ul class="analytics--container groups-container">
-                <li class="group-item">
-                    <h3 class="section-title">15389</h3>
-                    <h6 class="analytics--text">
-                        <!-- -->Community members
-                        <!-- -->
-                    </h6>
-                </li>
-                <li class="group-item">
-                    <h3 class="section-title">3</h3>
-                    <h6 class="analytics--text">
-                        <!-- -->Cohorts
-                        <!-- -->
-                    </h6>
-                </li>
-                <li class="group-item">
-                    <h3 class="section-title">1000+</h3>
-                    <h6 class="analytics--text">
-                        <!-- -->Trained mentees
-                        <!-- -->
-                    </h6>
-                </li>
-                <li class="group-item">
-                    <h3 class="section-title">25</h3>
-                    <h6 class="analytics--text">
-                        <!-- -->Worktools
-                        <!-- -->
-                    </h6>
-                </li>
-                <li class="group-item">
-                    <h3 class="section-title">24</h3>
-                    <h6 class="analytics--text">
-                        <!-- -->Projects
-                        <!-- -->
-                    </h6>
-                </li>
-            </ul>
+    <section class="analytics-section">
+        <h5 class="numbers">Our Numbers</h5>
+        <div class="container analytics-container">
+            <div class="analytics-content">
+                <ul class="analytics-list">
+                    <li class="list-item">
+                        <h5>15389</h5>
+                        <p>Community members</p>
+                    </li>
+                    <li class="list-item">
+                        <h5>3</h5>
+                        <p>Cohorts</p>
+                    </li>
+                    <li class="list-item">
+                        <h5>1000+</h5>
+                        <p>Trained Mentees</p>
+                    </li>
+                    <li class="list-item">
+                        <h5>25</h5>
+                        <p>Worktools</p>
+                    </li>
+                    <li class="list-item">
+                        <h5>24</h5>
+                        <p>Projects</p>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
+
 
     <!--Impact-->
 
     <section class="impact-section">
-        <div class="container">
-            <h2 class="section-title">How we create Impact</h2>
-        </div>
-        <ul class="impact-list">
-            <li class="impact-item">
-                <div class="impact-item--image"><span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27635%27%20height=%27405%27/%3e"></span><img
-                            alt="Mentorship"
-                            src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fmentorship.png&w=1920&q=75"
-                            decoding="async" data-nimg="intrinsic" class="impact-image"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"
-                            srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fmentorship.png&w=1920&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fmentorship.png&w=1920&q=75 2x"><noscript><img
-                                alt="Mentorship"
-                                srcSet="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fmentorship.png&w=1920&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fmentorship.png&w=1920&q=75 2x"
-                                src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fmentorship.png&w=1920&q=75"
-                                decoding="async" data-nimg="intrinsic"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"
-                                class="impact-image" loading="lazy" /></noscript></span></div>
-                <div class="text">
-                    <div>
-                        <h1 class="section-title">01</h1>
-                        <h3>Mentorship</h3>
-                        <p>One of the core pillars of Web3Ladies is our Mentorship program and we are committed to
-                            offering quality trainings to ladies.</p><button class="outline">Learn More</button>
-                    </div>
+        <h5 class="impact">How we create Impact</h5>
+        <div class="impact-content">
+            <div class="content-one">
+                <div class="image">
+                    <img src="./assets/images/mentorship.webp" alt="" class="mentorship">
                 </div>
-            </li>
-            <li class="impact-item">
-                <div class="impact-item--image"><span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27635%27%20height=%27405%27/%3e"></span><img
-                            alt="Community"
-                            src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcommunity.png&w=1920&q=75"
-                            decoding="async" data-nimg="intrinsic" class="impact-image"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"
-                            srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcommunity.png&w=1920&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcommunity.png&w=1920&q=75 2x"><noscript><img
-                                alt="Community"
-                                srcSet="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcommunity.png&w=1920&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcommunity.png&w=1920&q=75 2x"
-                                src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcommunity.png&w=1920&q=75"
-                                decoding="async" data-nimg="intrinsic"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"
-                                class="impact-image" loading="lazy" /></noscript></span></div>
-                <div class="text">
-                    <div>
-                        <h1 class="section-title">02</h1>
-                        <h3>Community</h3>
-                        <p>Be a part of our growing community of vibrant ladies disrupting the web3 ecosystem.</p>
-                        <button class="outline">Learn More</button>
-                    </div>
+                <div class="text-content">
+                    <h4>01</h4>
+                    <h5>Mentorship</h5>
+                    <p>One of the core pillars of Web3Ladies is our Mentorship program and we are committed to offering
+                        quality trainings to ladies.</p>
+                    <button class="btn secondary-btn">Learn More</button>
                 </div>
-            </li>
-            <li class="impact-item">
-                <div class="impact-item--image">
-                    <span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27635%27%20height=%27405%27/%3e"></span><img
-                            alt="Events"
-                            src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fevents.png&w=1920&q=75"
-                            decoding="async" data-nimg="intrinsic" class="impact-image"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"
-                            srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fevents.png&w=1920&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fevents.png&w=1920&q=75 2x"><noscript><img
-                                alt="Events"
-                                srcSet="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fevents.png&w=1920&q=75 1x,https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fevents.png&w=1920&q=75 2x"
-                                src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fevents.png&w=1920&q=75"
-                                decoding="async" data-nimg="intrinsic"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"
-                                class="impact-image" loading="lazy" /></noscript></span>
+            </div>
 
+            <div class="content-two">
+                <div class="image">
+                    <img src="./assets/images/community-img.webp" alt="" class="community">
                 </div>
-                <div class="text">
-                    <div>
-                        <h1 class="section-title">03</h1>
-                        <h3>Events</h3>
-                        <p>Through our events, we help create adequate awareness and enlightenment on trending topics in
-                            the web3 ecosystem.</p><button class="outline">Learn More</button>
-                    </div>
+                <div class="text-content">
+                    <h4>02</h4>
+                    <h5>Community</h5>
+                    <p>Be a part of our growing community of vibrant ladies disrupting the web3 ecosystem.</p>
+                    <button class="btn secondary-btn">Learn More</button>
                 </div>
-            </li>
-        </ul>
+            </div>
+
+            <div class="content-three">
+                <div class="image">
+                    <img src="./assets/images/events.webp" alt="" class="events">
+                </div>
+                <div class="text-content">
+                    <h4>03</h4>
+                    <h5>Events</h5>
+                    <p>Through our events, we help create adequate awareness and enlightenment on trending topics in the
+                        web3 ecosystem.</p>
+                    <button class="btn secondary-btn">Learn More</button>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!--Highlight-->
 
-    <section class="highlights">
+    <section class="highlights-section">
         <div class="container">
-            <div class="highlights--heading">
-                <h1 class="section-title">Highlights</h1>
+            <h5 class="highlights-heading">Highlights</h5>
+            <div class="highlights-container">
+                <div class="highlights-item">
+                    <img src="./assets/images/blog-img-1.webp" alt="">
+                    <p class="blog">BLOG</p>
+                    <h6>Web3Ladies kicks off onboarding Web2 communities into Web3</h6>
+                    <a href="#" class="learn">Learn More &#8594;</a>
+                </div>
+
+                <div class="highlights-item">
+                    <img src="./assets/images/blog-img-2.webp" alt="">
+                    <p class="blog">BLOG</p>
+                    <h6>Web3Ladies partners with Polygon for W3L Cohort III Mentorship Program</h6>
+                    <a href="#" class="learn">Learn More &#8594;</a>
+                </div>
+
+                <div class="highlights-item">
+                    <img src="./assets/images/blog-img-3.webp" alt="">
+                    <p class="blog">BLOG</p>
+                    <h6>Web3Ladies x FTX Africa on the #WomenWhoCrypto Campaign</h6>
+                    <a href="#" class="learn">Learn More &#8594;</a>
+                </div>
             </div>
-            <ul class="highlights--container">
-                <li class="highlight--container-item">
-                    <div class="highlights--container-item--image"><span
-                            style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                                style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%">
-                                <img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                    alt="" aria-hidden="true"
-                                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27400%27%20height=%27220%27/%3e"></span>
-                            <img alt="highlights-image"
-                                src="https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fv1660749559%2Fblog%2FWeb3xSCA.jpg&w=828&q=75"
-                                decoding="async" data-nimg="intrinsic"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"><noscript><img
-                                    alt="highlights-image"
-                                    srcSet="https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fv1660749559%2Fblog%2FWeb3xSCA.jpg&w=828&q=75 1x, https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fv1660749559%2Fblog%2FWeb3xSCA.jpg&w=828&q=75 2x"
-                                    src="https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fv1660749559%2Fblog%2FWeb3xSCA.jpg&w=828&q=75"
-                                    decoding="async" data-nimg="intrinsic"
-                                    style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"
-                                    loading="lazy" /></noscript></span></div>
-                    <div class="highlights--container-item--text">
-                        <div class="badge" style="background:#E7D2FF">Blog</div>
-                        <h4>Web3Ladies kicks off onboarding Web2 communities into Web3</h4><button
-                            class="clear primary-color has-icon">Learn More<span class="icon-right"><svg width="10"
-                                    height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M9.85019 4.66011L4.71722 0.0547752C4.67782 0.0196628 4.62755 0 4.57457 0H3.37216C3.27162 0 3.22543 0.129213 3.30151 0.196629L8.0595 4.46629H0.108692C0.0489113 4.46629 0 4.51685 0 4.57865V5.42135C0 5.48315 0.0489113 5.53371 0.108692 5.53371H8.05814L3.30015 9.80337C3.22407 9.87219 3.27026 10 3.3708 10H4.61397C4.63978 10 4.6656 9.99017 4.68462 9.97191L9.85019 5.33989C9.89723 5.29761 9.93494 5.24539 9.96078 5.18675C9.98663 5.12812 10 5.06443 10 5C10 4.93557 9.98663 4.87188 9.96078 4.81325C9.93494 4.75461 9.89723 4.70239 9.85019 4.66011Z"
-                                        fill="#7D0BFE"></path>
-                                </svg> </span></button>
-                    </div>
-                </li>
-                <li class="highlight--container-item">
-                    <div class="highlights--container-item--image"><span
-                            style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                                style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                    style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                    alt="" aria-hidden="true"
-                                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27400%27%20height=%27220%27/%3e"></span><img
-                                alt="highlights-image"
-                                src="https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fv1661551975%2FWeb3xPolygon_live-03_iiefga.jpg&w=828&q=75"
-                                decoding="async" data-nimg="intrinsic"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"><noscript><img
-                                    alt="highlights-image"
-                                    srcSet="https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fv1661551975%2FWeb3xPolygon_live-03_iiefga.jpg&w=828&q=75 1x, https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fv1661551975%2FWeb3xPolygon_live-03_iiefga.jpg&w=828&q=75 2x"
-                                    src="https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fv1661551975%2FWeb3xPolygon_live-03_iiefga.jpg&w=828&q=75"
-                                    decoding="async" data-nimg="intrinsic"
-                                    style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"
-                                    loading="lazy" /></noscript></span></div>
-                    <div class="highlights--container-item--text">
-                        <div class="badge" style="background:#E7D2FF">Blog</div>
-                        <h4>Web3Ladies partners with Polygon for W3L Cohort III Mentorship Program</h4><button
-                            class="clear primary-color has-icon">Learn More<span class="icon-right"><svg width="10"
-                                    height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M9.85019 4.66011L4.71722 0.0547752C4.67782 0.0196628 4.62755 0 4.57457 0H3.37216C3.27162 0 3.22543 0.129213 3.30151 0.196629L8.0595 4.46629H0.108692C0.0489113 4.46629 0 4.51685 0 4.57865V5.42135C0 5.48315 0.0489113 5.53371 0.108692 5.53371H8.05814L3.30015 9.80337C3.22407 9.87219 3.27026 10 3.3708 10H4.61397C4.63978 10 4.6656 9.99017 4.68462 9.97191L9.85019 5.33989C9.89723 5.29761 9.93494 5.24539 9.96078 5.18675C9.98663 5.12812 10 5.06443 10 5C10 4.93557 9.98663 4.87188 9.96078 4.81325C9.93494 4.75461 9.89723 4.70239 9.85019 4.66011Z"
-                                        fill="#7D0BFE"></path>
-                                </svg> </span></button>
-                    </div>
-                </li>
-                <li class="highlight--container-item">
-                    <div class="highlights--container-item--image"><span
-                            style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                                style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                    style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                    alt="" aria-hidden="true"
-                                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27400%27%20height=%27220%27/%3e"></span><img
-                                alt="highlights-image"
-                                src="https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fw_1000%2Car_16%3A9%2Cc_fill%2Cg_auto%2Ce_sharpen%2Fv1661591542%2Fblog%2FW3L_x_FTX.jpg&w=828&q=75"
-                                decoding="async" data-nimg="intrinsic"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"><noscript><img
-                                    alt="highlights-image"
-                                    srcSet="https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fw_1000%2Car_16%3A9%2Cc_fill%2Cg_auto%2Ce_sharpen%2Fv1661591542%2Fblog%2FW3L_x_FTX.jpg&w=828&q=75 1x, https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fw_1000%2Car_16%3A9%2Cc_fill%2Cg_auto%2Ce_sharpen%2Fv1661591542%2Fblog%2FW3L_x_FTX.jpg&w=828&q=75 2x"
-                                    src="https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fw_1000%2Car_16%3A9%2Cc_fill%2Cg_auto%2Ce_sharpen%2Fv1661591542%2Fblog%2FW3L_x_FTX.jpg&w=828&q=75"
-                                    decoding="async" data-nimg="intrinsic"
-                                    style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"
-                                    loading="lazy" /></noscript></span></div>
-                    <div class="highlights--container-item--text">
-                        <div class="badge" style="background:#E7D2FF">Blog</div>
-                        <h4>Web3Ladies x FTX Africa on the #WomenWhoCrypto Campaign</h4><button
-                            class="clear primary-color has-icon">Learn More<span class="icon-right"><svg width="10"
-                                    height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M9.85019 4.66011L4.71722 0.0547752C4.67782 0.0196628 4.62755 0 4.57457 0H3.37216C3.27162 0 3.22543 0.129213 3.30151 0.196629L8.0595 4.46629H0.108692C0.0489113 4.46629 0 4.51685 0 4.57865V5.42135C0 5.48315 0.0489113 5.53371 0.108692 5.53371H8.05814L3.30015 9.80337C3.22407 9.87219 3.27026 10 3.3708 10H4.61397C4.63978 10 4.6656 9.99017 4.68462 9.97191L9.85019 5.33989C9.89723 5.29761 9.93494 5.24539 9.96078 5.18675C9.98663 5.12812 10 5.06443 10 5C10 4.93557 9.98663 4.87188 9.96078 4.81325C9.93494 4.75461 9.89723 4.70239 9.85019 4.66011Z"
-                                        fill="#7D0BFE"></path>
-                                </svg> </span></button>
-                    </div>
-                </li>
-            </ul>
         </div>
     </section>
 
     <!--Sponsorship-->
-    <section class="call-for-sponsors" id="sponsor-us">
-        <div class="call-for-sponsors--text">
-            <div>
-                <h1>You can become a sponsor</h1>
+    <section class="sponsors-section">
+        <div class="sponsors-text">
+            <div class="text">
+                <h6>YOU CAN BECOME A SPONSOR</h6>
                 <p>Being a non-profit organization and community, we always look forward to welcoming partners who
-                    resonate with our vision and want to impact the lives of enthusiastic African ladies in Web3.</p>
-                <button class="outline">Become a Sponsor</button>
+                    resonate
+                    with our vision and want to impact the lives of enthusiastic African ladies in Web3.</p>
+                <button class="btn sponsor-btn">Become a Sponsor</button>
             </div>
         </div>
-        <div class="call-for-sponsors--image"><span
-                style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                    style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                        style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                        alt="" aria-hidden="true"
-                        src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27532%27%20height=%27500%27/%3e"></span><img
-                    alt="call-for-sponsors-image"
-                    src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcall-for-sponsors.png&w=1080&q=75"
-                    decoding="async" data-nimg="intrinsic"
-                    style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                    srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcall-for-sponsors.png&w=1080&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcall-for-sponsors.png&w=1080&q=75 2x"><noscript><img
-                        alt="call-for-sponsors-image"
-                        srcSet="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcall-for-sponsors.png&w=1080&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcall-for-sponsors.png&w=1080&q=75 2x"
-                        src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fcall-for-sponsors.png&w=1080&q=75"
-                        decoding="async" data-nimg="intrinsic"
-                        style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                        loading="lazy" /></noscript></span></div>
+
+        <div class="sponsors-img">
+            <img src="./assets/images/sponsor.webp" alt="">
+        </div>
     </section>
 
 
     <!--Mentorship-->
-    <section class="mentorship" id="mentorship">
+    <section class="mentorship-section">
         <div class="container">
-            <h1 class="section-title"> Get mentored by the best in the <span>Web3 Ecosystem</span></h1><button
-                class="primary">Learn More</button>
-            <div class="logo-container"><span
-                    style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                        style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                            style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                            alt="" aria-hidden="true"
-                            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27170%27%20height=%2745%27/%3e"></span><img
-                        src="./assets/images/polygon-colored.svg" decoding="async" data-nimg="intrinsic"
-                        style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                        srcset="./assets/images/polygon-colored.svg 1x, ./assets/images/polygon-colored.svg 2x"><noscript><img
-                            srcSet="/assets/images/polygon-colored.svg 1x, ./assets/images/polygon-colored.svg 2x"
-                            src="./assets/images/polygon-colored.svg" decoding="async" data-nimg="intrinsic"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                            loading="lazy" /></noscript></span></div>
-            <div class="logo-container"><span
-                    style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                        style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                            style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                            alt="" aria-hidden="true"
-                            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27170%27%20height=%2745%27/%3e"></span><img
-                        src="./assets/images/ethereum.svg" decoding="async" data-nimg="intrinsic"
-                        style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                        srcset="./assets/images/ethereum.svg 1x, ./assets/images/ethereum.svg 2x"><noscript><img
-                            srcSet="/assets/images/ethereum.svg 1x, ./assets/images/ethereum.svg 2x"
-                            src="./assets/images/ethereum.svg" decoding="async" data-nimg="intrinsic"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                            loading="lazy" /></noscript></span></div>
-            <div class="logo-container"><span
-                    style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                        style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                            style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                            alt="" aria-hidden="true"
-                            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27170%27%20height=%2745%27/%3e"></span><img
-                        src="./assets/images/filecoin-colored.svg" decoding="async" data-nimg="intrinsic"
-                        style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                        srcset="./assets/images/filecoin-colored.svg 1x, ./assets/images/filecoin-colored.svg 2x"><noscript><img
-                            srcSet="/assets/images/filecoin-colored.svg 1x, ./assets/images/filecoin-colored.svg 2x"
-                            src="./assets/images/filecoin-colored.svg" decoding="async" data-nimg="intrinsic"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                            loading="lazy" /></noscript></span></div>
-            <div class="logo-container"><span
-                    style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                        style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                            style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                            alt="" aria-hidden="true"
-                            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27170%27%20height=%2745%27/%3e"></span><img
-                        src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3ladies-vector.png&w=384&q=75"
-                        decoding="async" data-nimg="intrinsic"
-                        style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                        srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3ladies-vector.png&w=384&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3ladies-vector.png&w=384&q=75 2x"></span>
+            <div class="mentorship-section-text">
+                <h5 class="mentorship-section-title">Get mentored by the best in the <span>Web3 Ecosystem</span>
+                </h5>
+                <button class="btn mentorship-btn">Learn More</button>
             </div>
+
+            <img src="./assets/images/ethereum.svg" alt="Ethereum" class="ethereum-two">
+            <img src="./assets/images/polygon-colored.svg" alt="Polygon" class="polygon-colored">
+            <img src="./assets/images/filecoin-colored.svg" alt="filecoin" class="filecoin-colored">
+            <img src="./assets/images/animation-image.webp" alt="" class="animation-web3">
         </div>
     </section>
-
     <!--Pledge-->
 
-    <section class="pledge">
-        <div class="container card card__black">
-            <div class="pledge--text">
-                <h1 class="section-title">Support us by taking our plegde</h1><button class="outline">Take
-                    Pledge</button>
+    <section class="pledge-section">
+        <div class="container pledge-container">
+            <div class="pledge-text">
+                <h1 class="pledge-section-title">Support us by taking our plegde</h1>
+                <button class="btn pledge-btn">Take Pledge</button>
             </div>
-            <div class="pledge--image"><span
-                    style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                        style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                            style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                            alt="" aria-hidden="true"
-                            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27532%27%20height=%27500%27/%3e"></span><img
-                        alt="pledge-image"
-                        src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fpledge-image.png&w=1080&q=75"
-                        decoding="async" data-nimg="intrinsic"
-                        style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                        srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fpledge-image.png&w=1080&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fpledge-image.png&w=1080&q=75 2x"><noscript><img
-                            alt="pledge-image"
-                            srcSet="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fpledge-image.png&w=1080&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fpledge-image.png&w=1080&q=75 2x"
-                            src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fpledge-image.png&w=1080&q=75"
-                            decoding="async" data-nimg="intrinsic"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                            loading="lazy" /></noscript></span></div>
+
+            <div class="pledge-image">
+                <img src="./assets/images/pledge-badge.webp" alt="" class="pledge-badge">
+            </div>
         </div>
     </section>
 
     <!--events-->
-
-    <section class="events" id="events">
+    <section class="events-section">
         <div class="container">
-            <h1 class="section-title">Events</h1>
-            <ul class="events-list">
-                <li class="events-item">
-                    <div class="events-item--image"><span
-                            style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                                style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                    style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                    alt="" aria-hidden="true"
-                                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27635%27%20height=%27405%27/%3e"></span><img
-                                alt="Twitter Space"
-                                src="https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fv1661552370%2FWTAP.jpg&w=1920&q=75"
-                                decoding="async" data-nimg="intrinsic" class="events-image"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"
-                                srcset="https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fv1661552370%2FWTAP.jpg&w=1920&q=75 1x, https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fv1661552370%2FWTAP.jpg&w=1920&q=75 2x"><noscript><img
-                                    alt="Twitter Space"
-                                    srcSet="/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fv1661552370%2FWTAP.jpg&amp;w=640&amp;q=75 1x, https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fv1661552370%2FWTAP.jpg&w=1920&q=75 2x"
-                                    src="https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fv1661552370%2FWTAP.jpg&w=1920&q=75"
-                                    decoding="async" data-nimg="intrinsic"
-                                    style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"
-                                    class="events-image" loading="lazy" /></noscript></span></div>
-                    <div class="events-item--text">
-                        <h3>Twitter Space</h3>
-                        <p>Web3 Ladies Work Tool Assistance Program - AMA Session</p><button class="outline">Learn
-                            More</button>
+            <h1 class="events-section-title">Events</h1>
+
+            <div class="events-list">
+                <div class="events-item-one">
+                    <div class="events-text">
+                        <h4>Twitter Space</h4>
+                        <p>Web3 Ladies Work Tool Assistance Program - AMA Session</p>
+                        <button class="btn secondary-btn">Learn More</button>
                     </div>
-                </li>
-                <li class="events-item">
-                    <div class="events-item--image"><span
-                            style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                                style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                    style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                    alt="" aria-hidden="true"
-                                    src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27635%27%20height=%27405%27/%3e"></span><img
-                                alt="Twitter Space"
-                                src="https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fv1661551975%2FWeb3xPolygon_live-03_iiefga.jpg&w=1920&q=75"
-                                decoding="async" data-nimg="intrinsic" class="events-image"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover"
-                                srcset="https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fv1661551975%2FWeb3xPolygon_live-03_iiefga.jpg&w=1920&q=75 https://www.web3ladies.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fweb3ladies%2Fimage%2Fupload%2Fv1661551975%2FWeb3xPolygon_live-03_iiefga.jpg&w=1920&q=75 2x"></span>
+                    <div class="events-image">
+                        <img src="./assets/images/twitter-space-1.webp" alt="">
                     </div>
-                    <div class="events-item--text">
-                        <h3>Twitter Space</h3>
+                </div>
+
+                <div class="events-item-two">
+                    <div class="events-image">
+                        <img src="./assets/images/twitter-space-2.webp" alt="">
+                    </div>
+                    <div class="events-text">
+                        <h4>Twitter Space</h4>
                         <p>This space speaks about how Community members can enjoy the benefits of the Polygon
-                            Blockchain and the extra perks the Community members enjoy, thanks to the partnership with
-                            Polygon.</p><button class="outline">Learn More</button>
+                            Blockchain
+                            and the extra perks the Community members enjoy, thanks to the partnership with Polygon.</p>
+                        <button class="btn secondary-btn">Learn More</button>
                     </div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
     </section>
 
     <!--Youtube-->
-    <section class="youtube">
-        <div class="container">
-            <h1 class="section-title">Check us out on
-                <!-- --> <span><span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27187%27%20height=%2743%27/%3e"></span><img
-                            alt="youtube-wordmark" src="./assets/images/youtube-wordmark.svg" decoding="async"
-                            data-nimg="intrinsic"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                            srcset="./assets/images/youtube-wordmark.svg 1x, ./assets/images/youtube-wordmark.svg 2x"><noscript><img
-                                alt="youtube-wordmark"
-                                srcSet="/assets/images/youtube-wordmark.svg 1x, ./assets/images/youtube-wordmark.svg 2x"
-                                src="./assets/images/youtube-wordmark.svg" decoding="async" data-nimg="intrinsic"
-                                style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                                loading="lazy" /></noscript></span></span></h1>
-            <div class="youtube-container">
-                <div class="youtube-container--video"><iframe src="https://www.youtube.com/embed/9n-KUfeyMAY"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen=""></iframe></div>
+    <section class="youtube-section">
+        <div class="container youtube-container">
+            <div class="youtube-section-heading">
+                <h4 class="youtube-section-title">Check us out on
+                    <span>
+                        <img src="./assets/images/youtube-wordmark.svg" alt="" class="youtube-icon">
+                    </span>
+                </h4>
             </div>
-            <div class="btn-container"><button class="outline">Visit our YouTube</button></div>
+
+            <div class="youtube-video">
+                <iframe src="https://www.youtube.com/embed/9n-KUfeyMAY" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen=""></iframe>
+            </div>
+
+            <div class="youtube-button-container">
+                <button class="btn secondary-btn">View Our YouTube</button>
+            </div>
         </div>
     </section>
 
     <!--Testimonials-->
 
-    <section class="testimonials">
+<sectin class="testimonials-section">
         <div class="container">
-            <div class="testimonials--heading">
-                <h1 class="section-title"></h1>
-                <p class="text-muted">See what people have to say about their experience with Web3Ladies</p>
-            </div>
-            <div class="testimonials--container">
-                <div class="testimonials--container__sidebar">
-                    <div class="testimonials--container__sidebar__item active">Past Mentees</div>
-                    <div class="testimonials--container__sidebar__item ">Shoutouts</div>
-                    <div class="testimonials--container__sidebar__item ">Community</div>
+            <h6 class="testimonials-heading">See what people have to say about their experience with Web3Ladies</h6>
+
+            <div class="testimonials-container">
+                <div class="side__container">
+                    <div class="side-div">Past Mentees</div>
+                    <div class="side-div">Shoutouts</div>
+                    <div class="side-div">Community</div>
                 </div>
-                <div class="testimonials--container__content">
-                    <div class="testimonials--container__content__item">
-                        <div class="testimonials--container__content__item__heading"><span
-                                style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                                    style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                        style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                        alt="" aria-hidden="true"
-                                        src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2760%27%20height=%2760%27/%3e"></span><img
-                                    alt="testimonial-image"
-                                    src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75"
-                                    decoding="async" data-nimg="intrinsic"
-                                    style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                                    srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75 2x"><noscript><img
-                                        alt="testimonial-image"
-                                        srcSet="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75 2x"
-                                        src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75"
-                                        decoding="async" data-nimg="intrinsic"
-                                        style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                                        loading="lazy" /></noscript></span>
-                            <div>
-                                <h3>Amarachi</h3>
-                                <h5>Web3 Developer</h5>
+
+                <div class="testimonials-container-content">
+                    <!-- Reviewer One -->
+                    <div class="testimonial-content-item">
+                        <div class="reviewer-details">
+                            <div class="reviewer-image">
+                                <img src="./assets/images/avatar.webp" alt="">
+                            </div>
+                            <div class="reviewer-bio">
+                                <h5>Amarachi <br>
+                                    Web3 Developer</h5>
                             </div>
                         </div>
-                        <div class="testimonials--container__content__item__text">
-                            <p>Prior to the cohort I had tried learning web3 development 2 times but didn't remain
-                                consistent until I got into the cohort that made me more eager to learn, provided me
-                                with a community to learn with and people to look up to, I can say I got the
-                                foundational knowledge and roadmap to keep learning and going through the cohort has
-                                really improved my consistency in learning about web3 generally.</p>
+
+                        <div class="review-message">
+                            Prior to the cohort I had tried learning web3 development 2 times but didn't remain
+                            consistent until I got into the cohort that made me more eager to learn, provided me with a
+                            community to learn with and people to look up to, I can say I got the foundational knowledge
+                            and roadmap to keep learning and going through the cohort has really improved my consistency
+                            in learning about web3 generally.
                         </div>
                     </div>
-                    <div class="testimonials--container__content__item">
-                        <div class="testimonials--container__content__item__heading"><span
-                                style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                                    style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                        style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                        alt="" aria-hidden="true"
-                                        src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2760%27%20height=%2760%27/%3e"></span><img
-                                    alt="testimonial-image"
-                                    src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75"
-                                    decoding="async" data-nimg="intrinsic"
-                                    style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                                    srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75 1x,  https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75 2x"><noscript><img
-                                        alt="testimonial-image"
-                                        srcSet="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75 1x,https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75 2x"
-                                        src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75"
-                                        decoding="async" data-nimg="intrinsic"
-                                        style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                                        loading="lazy" /></noscript></span>
-                            <div>
-                                <h3>Oluwadamilola</h3>
-                                <h5>Solidity Developer</h5>
+
+                    <!-- Reviewer Two -->
+                    <div class="testimonial-content-item">
+                        <div class="reviewer-details">
+                            <div class="reviewer-image">
+                                <img src="./assets/images/avatar.webp" alt="">
+                            </div>
+                            <div class="reviewer-bio">
+                                <h5>Oluwadamilola <br>
+                                    Solidity Developer</h5>
                             </div>
                         </div>
-                        <div class="testimonials--container__content__item__text">
-                            <p>I can gladly say I’m a community-taught solidity developer, thanks to Web3Ladies! Over
-                                the past couple of months, I have witnessed sporadic growth in my tech journey and this
-                                is owing to the amazing mentorship Web3Ladies provided me.</p>
+
+                        <div class="review-message">
+                            I can gladly say I’m a community-taught solidity developer, thanks to Web3Ladies! Over the
+                            past couple of months, I have witnessed sporadic growth in my tech journey and this is owing
+                            to the amazing mentorship Web3Ladies provided me.
                         </div>
                     </div>
-                    <div class="testimonials--container__content__item">
-                        <div class="testimonials--container__content__item__heading"><span
-                                style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                                    style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                        style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                        alt="" aria-hidden="true"
-                                        src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2760%27%20height=%2760%27/%3e"></span><img
-                                    alt="testimonial-image"
-                                    src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75"
-                                    decoding="async" data-nimg="intrinsic"
-                                    style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                                    srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75 1x,https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75 2x"><noscript><img
-                                        alt="testimonial-image"
-                                        srcSet="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75 2x"
-                                        src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75"
-                                        decoding="async" data-nimg="intrinsic"
-                                        style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                                        loading="lazy" /></noscript></span>
-                            <div>
-                                <h3>Amarachukwu</h3>
-                                <h5>Crypto/DeFi Enthusiast</h5>
+
+                    <!-- Reviewer Three -->
+                    <div class="testimonial-content-item">
+                        <div class="reviewer-details">
+                            <div class="reviewer-image">
+                                <img src="./assets/images/avatar.webp" alt="">
+                            </div>
+                            <div class="reviewer-bio">
+                                <h5>Elizabeth <br>
+                                    Web2 Developer</h5>
                             </div>
                         </div>
-                        <div class="testimonials--container__content__item__text">
-                            <p> I am very grateful for the classes. I knew nothing about Crypto. I never traded crypto
-                                in my life. I had so many challenges but in the end, I am here. I bought my first coin
-                                during class. Also, I started saving in USDT. I am very grateful for the cohort.</p>
-                        </div>
-                    </div>
-                    <div class="testimonials--container__content__item">
-                        <div class="testimonials--container__content__item__heading"><span
-                                style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                                    style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                        style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                        alt="" aria-hidden="true"
-                                        src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2760%27%20height=%2760%27/%3e"></span><img
-                                    alt="testimonial-image"
-                                    src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75"
-                                    decoding="async" data-nimg="intrinsic"
-                                    style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                                    srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75 1x,https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75 2x"><noscript><img
-                                        alt="testimonial-image"
-                                        srcSet="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75 1x,https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75 2x"
-                                        src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Ftestimonial-image.png&w=128&q=75"
-                                        decoding="async" data-nimg="intrinsic"
-                                        style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                                        loading="lazy" /></noscript></span>
-                            <div>
-                                <h3>Elizabeth</h3>
-                                <h5>Web2 Developer</h5>
-                            </div>
-                        </div>
-                        <div class="testimonials--container__content__item__text">
-                            <p> I had the pleasure to be a Web2 mentee at Web3 ladies Cohort ii for 4 months without
-                                prior knowledge of Html, CSS, and JavaScript. The mentorship is equipped with mentors
-                                with deep knowledge of teaching technical courses. The training also helped me develop
-                                my organizational/technical skills along with personal development.</p>
+
+                        <div class="review-message">
+                            I had the pleasure to be a Web2 mentee at Web3 ladies Cohort ii for 4 months without prior
+                            knowledge of Html, CSS, and JavaScript. The mentorship is equipped with mentors with deep
+                            knowledge of teaching technical courses. The training also helped me develop my
+                            organizational/technical skills along with personal development.
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <div>
+
 
         <!--Footer-->
         <footer>
-            <div class="footer-content">
-                <div class="footer-content_form">
-                    <div class="footer-card">
-                        <div class="logo"><span
-                                style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                                    style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                        style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                        alt="" aria-hidden="true"
-                                        src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27100%27%20height=%27100%27/%3e"></span><img
-                                    alt="web3ladies-logo"
-                                    src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3Ladies-white.png&w=256&q=75"
-                                    decoding="async" data-nimg="intrinsic"
-                                    style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                                    srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3Ladies-white.png&w=256&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3Ladies-white.png&w=256&q=75 2x"><noscript><img
-                                        alt="web3ladies-logo"
-                                        srcSet="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3Ladies-white.png&w=256&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3Ladies-white.png&w=256&q=75 2x"
-                                        src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fweb3Ladies-white.png&w=256&q=75"
-                                        decoding="async" data-nimg="intrinsic"
-                                        style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                                        loading="lazy" /></noscript></span></div>
-                        <p class="card-text">Get the latest updates about Web3Ladies activities and events.</p>
-                        <form action="">
-                            <div class="update-form">
-                                <div class="input"><label for="user-email" class="display-none"></label><input
-                                        type="email" name="user-email" id="user-email"></div>
-                                <div><button class="primary">Submit</button></div>
-                            </div>
-                        </form>
+            <div class=" container footer-container">
+                <div class="footer-form">
+                    <div class="footer-logo">
+                        <img src="./assets/images/footer-logo.webp" alt="" class="footer=logo">
+                    </div>
+
+                    <div class="form=text">
+                        Get the latest updates about Web3Ladies activities and events.
+                    </div>
+
+                    <div class="form-bottom">
+                        <input type="text">
+                        <button class="btn primary-btn">Submit</button>
                     </div>
                 </div>
+
                 <div class="footer-links">
-                    <div>
-                        <h4>quick links</h4>
-                        <ul class="footer-list quick-links">
-                            <div>
-                                <li><a href="/#who-we-are">About</a></li>
-                                <li><a href="/#sponsor-us">Sponsor</a></li>
-                                <li><a href="/blog">Blog</a></li>
-                            </div>
-                            <div>
-                                <li><a href="/#events">Events</a></li>
-                                <li><a href="/#mentorship">Mentorship</a></li>
-                                <li><a href="/#join-our-community">Community</a></li>
-                            </div>
-                        </ul>
+                    <div class="link-header">
+                        <h6>QUICK LINKS</h6>
                     </div>
-                    <div class="contact">
-                        <h4 class="contact-links">reach out to us</h4>
-                        <ul class="footer-list quick-links">
-                            <div>
-                                <li><a href="mailto:hello@web3ladies.com" target="_blank"
-                                        rel="noopener noreferrer">Contact</a></li>
-                                <li><a href="https://www.instagram.com/web3ladies/" target="_blank"
-                                        rel="noopener noreferrer">Instagram</a></li>
-                                <li><a href="https://twitter.com/web3ladies/" target="_blank"
-                                        rel="noopener noreferrer">Twitter</a></li>
-                                <li><a href="https://www.facebook.com/ladiesdotech/" target="_blank"
-                                        rel="noopener noreferrer">Facebook</a></li>
-                            </div>
-                            <div>
-                                <li><a href="https://discord.gg/web3ladies" target="_blank"
-                                        rel="noopener noreferrer">Discord</a></li>
-                                <li><a href="https://ladiesdotech.medium.com/" target="_blank"
-                                        rel="noopener noreferrer">Medium</a></li>
-                                <li><a href="https://www.youtube.com/channel/UCJHXyL53LLhIqjYI1Gzt9mQ" target="_blank"
-                                        rel="noopener noreferrer">Youtube</a></li>
-                            </div>
-                        </ul>
+                    <ul class="footer-link">
+                        <div class="left-link">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Sponsor</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </div>
+                        <div class="right-link">
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Mentorship</a></li>
+                            <li><a href="#">Community</a></li>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer-links-two">
+                    <div class="link-header-two">
+                        <h6>REACH OUT TO US </h6>
                     </div>
+                    <ul class="footer-link">
+                        <div class="left-link">
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </div>
+                        <div class="right-link">
+                            <li><a href="#">Discord</a></li>
+                            <li><a href="#">Medium</a></li>
+                            <li><a href="#">YouTube</a></li>
+                        </div>
+                    </ul>
                 </div>
+
+                <img src="./assets/images/ethereum.webp" alt="" class="ethereum-footer">
+                <img src="./assets/images/bitcoinB.webp" alt="" class="bitcoin-footer">
             </div>
-            <div class="image-wrapper">
-                <div class="vector"><span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27100%27%20height=%27100%27/%3e"></span><img
-                            alt="ethereum-logo"
-                            src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fethereum.png&w=256&q=75"
-                            decoding="async" data-nimg="intrinsic"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                            srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fethereum.png&w=256&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fethereum.png&w=256&q=75 2x"></span>
-                </div>
-                <div class="vector"></div>
-                <div class="vector"><span
-                        style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span
-                            style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img
-                                style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0"
-                                alt="" aria-hidden="true"
-                                src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27100%27%20height=%27100%27/%3e"></span><img
-                            alt="Bitcoin"
-                            src="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fbitcoin.png&w=128&q=75"
-                            decoding="async" data-nimg="intrinsic"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:contain"
-                            srcset="https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fbitcoin.png&w=128&q=75 1x, https://www.web3ladies.com/_next/image?url=%2Fassets%2Fimages%2Fbitcoin.png&w=128&q=75 2x"></span>
-                </div>
+            <div class="footer-copyright">
+                <p>Copyright © 2022 Ladies Do Tech. All rights reserved.</p>
             </div>
-            <section class="copyright-section">
-                <div class="container">
-                    <p class="copyright-text">Copyright ©
-                        <!-- -->2022
-                        <!-- --> Ladies Do Tech. All rights reserved.</p>
-                </div>
-            </section>
         </footer>
-    </div>
-    </div>
+        </div>
+        </div>
 
 
 
