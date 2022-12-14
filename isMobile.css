@@ -6,14 +6,10 @@
   header {
     width: 100%;
     padding: 25px 0 8px 0;
-    border-bottom: 0.5px solid rgb(15, 15, 15, 0.2);
+    
   }
 
-  .nav-container {
-    display: flex;
-    justify-content: space-between;
-  }
-
+  
   .nav-logo {
     width: 70px;
     height: 50px;
@@ -31,21 +27,17 @@
     outline: none;
   }
 
+  section,
+  main{
+    margin-left: 20px;
+  }
   /*==============
   Main 
   =================*/
 
-  main {
-    background: url(./assets/images/header-bg.svg),
-      linear-gradient(180deg, hsla(0, 0%, 100%, 0.68), #fff 65.37%);
-    background-position: right 0px top 60px;
-    background-size: contain;
-    background-repeat: repeat;
-    width: 100%;
-  }
-
   .hero-content {
     display: block;
+    text-align: start;
   }
 
   .hero-content-text {
@@ -212,7 +204,7 @@
   }
 
   /*=================
-   Join Us Section 
+   Join Us 
    ==================*/
 
   .join-section {

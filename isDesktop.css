@@ -2,7 +2,6 @@
 /*=====================
 Global usage
 =======================*/
-
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +20,9 @@ a {
   text-decoration: none;
 }
 
+
+
+
 /*=====================
 Font-family
 =======================*/
@@ -32,9 +34,8 @@ Font-family
 
 @font-face {
   font-family: headingTitleFont;
-  src: url(.assets/fonts/AeonikTRIAL-Bold.otf);
+  src: url(./assets/fonts/AeonikTRIAL-Bold.otf);
 }
-
 
 
 :root {
@@ -62,7 +63,7 @@ Buttons
 .btn {
   padding: 15px 32px;
   font-size: 1em;
-  font-family: paragraphFont;
+  font-family: Space Grotesk;
   border-radius: 4px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -969,4 +970,30 @@ footer {
   position: absolute;
   left: 1%;
   top: 25%;
+}
+
+
+:root {
+  --color-black: #0f0f0f;
+  --color-black-rgb: 15,15,15;
+  --primary-color: #7d0bfe;
+  --primary-color-rgb: 125,11,254;
+  --primary-color-inverse: #fff;
+  --color-primary-light: #ff9edb;
+  --color-primary-extra-light: #ffecf8;
+  --success-color: #32cc0e;
+  --danger-color: #ef4444;
+  --danger-color-rgb: 239,68,68;
+  --color-white: #fff;
+  --color-background: #fff3f3;
+  --background-color: #f8f2ff;
+  --color-background: #f8f2ff;
+  --color-red: #ef4444;
+  --color-grey: #646464;
+  --color-grey-rgb: 100,100,100;
+  --secondary-success-color: #a2c438;
+  --popup-modal--container-max-width: 300px;
+  --popup-modal--description-font-size: 16px;
+  --section-max-width: 1300px;
+  --page-container-margin: 1.25rem;
 }
