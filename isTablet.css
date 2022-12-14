@@ -3,7 +3,7 @@
 Tablet Screens
 ============================*/
 
-@media (min-width: 769px)  {
+@media (max-width: 768px)  {
 
   /*===================
   Header
@@ -15,10 +15,6 @@ Tablet Screens
     border-bottom: 0.5px solid rgb(15, 15, 15, 0.2);
   }
 
-  .nav-container {
-    display: flex;
-    justify-content: space-between;
-  }
 
   .nav-logo {
     width: 70px;
@@ -36,7 +32,7 @@ Tablet Screens
     border: none;
     outline: none;
   }
-
+  
   /*===========
    Main
    ============= */
